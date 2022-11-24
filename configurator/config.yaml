@@ -41,3 +41,11 @@ schema:
     - str
   ssh_keys:
     - str
+device_tracker
+- platform: vodafone_power_station
+  interval_seconds: 60
+  host: 192.168.1.1
+  username: vodafone
+  password: 'M4T5ATGGBKA3'
+  new_device_defaults:
+    track_new_devices: False
